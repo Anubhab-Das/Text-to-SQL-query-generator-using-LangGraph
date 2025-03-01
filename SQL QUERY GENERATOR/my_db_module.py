@@ -4,7 +4,7 @@ import pandas as pd
 
 # Create a database engine.
 # Adjust the connection string as needed.
-engine = create_engine("postgresql://anubhab@localhost:5432/text_to_sql_gen")
+engine = create_engine("postgresql://<your_address>")
 
 def execute_query(query: str):
     try:
