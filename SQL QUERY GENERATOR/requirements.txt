@@ -1,0 +1,6 @@
+requests 
+sqlalchemy 
+pandas 
+python-dotenv
+langgraph.graph
+langchain_core.messages
