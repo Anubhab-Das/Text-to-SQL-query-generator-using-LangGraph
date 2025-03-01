@@ -8,7 +8,7 @@ import os
 
 # Load environment variables (including TAVILY_API_KEY)
 load_dotenv()
-tavily_api_key = os.getenv("TAVILY_API_KEY", "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")
+tavily_api_key = os.getenv("TAVILY_API_KEY", "your_api_key")
 
 # Instantiate your Tavily client.
 tavily_llm = ChatTavily(model="tavily-1.0", api_key=tavily_api_key)
