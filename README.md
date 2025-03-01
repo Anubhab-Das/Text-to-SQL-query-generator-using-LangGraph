@@ -142,6 +142,12 @@ Accept your natural language query.
 Generate a SQL query using the Tavily client.
 Execute the query on your PostgreSQL database.
 Output the final answer with both the generated SQL query and the query result.
+
+# SAMPLE OUTPUT:
+
+![Screenshot 2025-03-01 at 8 37 42 PM](https://github.com/user-attachments/assets/d7215545-e128-48be-b291-6f0512a38b9d)
+
+
 Additional Notes
 
 Prompt Refinement:
