@@ -2,6 +2,24 @@
 
 This guide explains how to set up PostgreSQL, create a project directory, build the database tables and import data, and run a LangGraph-based text-to-SQL AI agent. The agent uses a Tavily-based language model client to convert natural language queries into SQL queries, executes them on a PostgreSQL database, and returns the results. You can use any LLM of your choice.
 
+Project Overview: This project focuses on converting natural language prompts into SQL queries using LangGraph, enabling users to interact with databases without prior SQL knowledge.
+
+Key Features:
+
+Natural Language Processing (NLP): Translates user prompts into SQL queries.
+LangGraph Framework: Utilized for structuring the workflow and managing the translation process.
+Database Interaction: Executes generated SQL queries and retrieves results.
+Technologies Used:
+
+Programming Language: Python
+Framework: LangGraph
+Database: PostgreSQL
+My Contributions:
+
+Developed the NLP pipeline for translating prompts to SQL.
+Integrated LangGraph to manage the workflow.
+Ensured secure and efficient database interactions.
+
 ## 1. Setting Up PostgreSQL
 
 ### a. Install PostgreSQL (macOS Example with Homebrew)
